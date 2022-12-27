@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+a{
+    margin-left: 35px;
+    text-decoration: none;
+}
+.btntalk1{
+    border: 2px solid; 
+    border-color: black;
+    padding: 10px;
+    width: 8%;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btntalk2{
+    border: 2px solid; 
+    border-color: black;
+    padding: 15px;
+    padding-right: 30px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btnproject{
+    border: 2px solid; 
+    border-color: black;
+    padding: 15px;   
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btnes{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.hero{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+}
+.conthero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textop{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 12px;
+}
+span{
+    text-decoration: line-through;
+}
+.solg{
+    font-size: 2rem;
+    color: orangered;
+    margin-left: 10px;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.sol1{
+    color: orangered;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img{
+    filter: grayscale(2);
+}
+.fondo{
+    font-size: 10rem;
+}
+h3{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+    color: white;
+    bottom: 30px;
+    text-transform:uppercase;
+}
+.sol{
+    color: orangered;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+.diagonal{
+    position: absolute;
+    top: 640px ;
+    width: 84.5rem;
+    height: 80px;
+    transform: skewY(-5deg) ;
+    background-color: black;
+}
