@@ -11,6 +11,10 @@ header{
 a{
     margin-left: 35px;
     text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orangered;
 }
 .btntalk1{
     border: 2px solid; 
@@ -21,14 +25,22 @@ a{
     cursor: pointer;
     font-weight: bold;
 }
+.btntalk1:hover{
+    background-color: orangered;
+    color: wheat;
+}
 .btntalk2{
     border: 2px solid; 
     border-color: black;
     padding: 15px;
-    padding-right: 30px;
     background-color: white;
     cursor: pointer;
     margin-top: 10px;
+    width: 125px;
+}
+.btntalk2:hover {
+    background-color: black;
+    color: white;
 }
 .btnproject{
     border: 2px solid; 
@@ -38,6 +50,11 @@ a{
     color: white;
     cursor: pointer;
     margin-top: 10px;
+    width: 125px;
+}
+.btnproject:hover{
+    background-color: white;
+    color: black;
 }
 .btnes{
     display: flex;
@@ -109,4 +126,12 @@ h3{
     height: 80px;
     transform: skewY(-5deg) ;
     background-color: black;
+}
+.fondo{
+    color: orangered;
+    position: absolute;
+    top: 150px;
+    right: 256px;
+    font-size: 400px;
+    z-index: -1;
 }
