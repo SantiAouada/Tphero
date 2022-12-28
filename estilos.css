@@ -128,10 +128,11 @@ h3{
     background-color: black;
 }
 .fondo{
-    color: orangered;
     position: absolute;
     top: 150px;
     right: 256px;
     font-size: 400px;
     z-index: -1;
+    -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px orangered
 }
